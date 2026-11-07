@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readx"
+version = "0.1.0"
+readme = "README.md"
+description = "Lib for easy use of discord webhook"
+requires-python = ">=3.8"
+authors = [
+    { name = "Beks1k"}
+]
+
+
+[tool.setuptools]
+# Указываем setuptools искать пакеты строго внутри директории src
+package-dir = {"" = "src"}
