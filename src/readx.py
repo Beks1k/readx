@@ -1,6 +1,6 @@
 import os
 
-from expections import(
+from expec import(
     FileNotFound, TooBig, BinaryFile, InvalidType
 )
 

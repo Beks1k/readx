@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "readx"
-version = "0.1.0"
+version = "0.1.1"
 readme = "README.md"
-description = "Lib for easy use of discord webhook"
+description = "Lib for easy file manage"
 requires-python = ">=3.8"
 authors = [
     { name = "Beks1k"}
