@@ -1,8 +1,8 @@
 LICENSE
 README.md
 pyproject.toml
-src/__init__.py
-src/readx.py
+src/readx/__init__.py
+src/readx/readx.py
 src/readx.egg-info/PKG-INFO
 src/readx.egg-info/SOURCES.txt
 src/readx.egg-info/dependency_links.txt
