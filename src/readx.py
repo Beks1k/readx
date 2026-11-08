@@ -1,8 +1,16 @@
 import os
 
-from expec import(
-    FileNotFound, TooBig, BinaryFile, InvalidType
-)
+class TooBig(Exception):
+    pass
+
+class FileNotFound(Exception):
+    pass
+
+class BinaryFile(Exception):
+    pass
+
+class InvalidType(Exception):
+    pass
 
 def readContent(path:str, ignoreWarns = False, treshHold:int = 209715200):
     if not path:
